@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>For Sabahat ❤️</title>
+
+<style>
+*{margin:0;padding:0;box-sizing:border-box;font-family:Arial,sans-serif}
+body{
+height:100vh;
+display:flex;
+justify-content:center;
+align-items:center;
+background:linear-gradient(-45deg,#170021,#4a0072,#ff4fa3,#6a0dad);
+background-size:400% 400%;
+animation:bg 10s infinite;
+overflow:hidden;
+color:#fff;
+text-align:center;
+padding:25px;
+}
+@keyframes bg{
+0%{background-position:0 50%}
+50%{background-position:100% 50%}
+100%{background-position:0 50%}
+}
+.page{
+position:absolute;
+width:100%;
+padding:25px;
+transition:.8s;
+}
+#love{display:none}
+.heart{
+font-size:85px;
+cursor:pointer;
+animation:beat 1s infinite;
+}
+@keyframes beat{
+50%{transform:scale(1.2)}
+}
+p{
+margin:15px 0;
+font-size:19px;
+line-height:1.7;
+}
+h1{
+margin:15px 0;
+}
+small{
+display:block;
+margin-top:25px;
+opacity:.8;
+}
+</style>
+</head>
+
+<body>
+
+<div id="start" class="page">
+<div class="heart" onclick="openLove()">❤️</div>
+<h1>Someone left you a surprise</h1>
+<p>Tap the heart to unlock</p>
+</div>
+
+<div id="love" class="page">
+<h1>For My Beautiful Sabahat ❤️</h1>
+
+<p>Dear Sabahat,</p>
+
+<p>I'm really sorry that I haven't been giving you enough time lately. I've been busy, but never too busy to think about you.</p>
+
+<p>Mjhe apse boht zda pyaar hai. ❤️</p>
+
+<p>You make my days brighter and my life happier. Thank you for being you.</p>
+
+<p>Naraz ni hwa kryn... mje takleef hoti. 🥹❤️</p>
+
+<p>No matter what happens, I'll always choose you.</p>
+
+<p>Forever Yours ❤️</p>
+
+<h2>Ali Hamza</h2>
+
+<small>Made with love ❤️</small>
+
+</div>
+
+<script>
+function openLove(){
+document.getElementById("start").style.display="none";
+document.getElementById("love").style.display="block";
+}
+</script>
+
+</body>
+</html>
